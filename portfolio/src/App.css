@@ -1,0 +1,37 @@
+body{
+  background-image: url('tlo.jpg');
+  background-size: cover;
+  margin:0;
+  padding:0;
+  color:white;
+}
+.container{
+  background-color: rgba(31, 31, 31, 0.5);
+  width:100vw;
+  min-height:100vh;
+}
+.menu{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 40vw;
+  min-height:12vh;
+  font-size: 2vw;
+  color:rgb(27, 170, 175);
+}
+.button{
+  cursor: pointer;
+}
+.aboutme{
+  text-align:center;
+  padding: 20vh 0 0 0;
+  font-size: 2vw;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
