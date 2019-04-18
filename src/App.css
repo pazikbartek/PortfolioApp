@@ -1,5 +1,5 @@
 body{
-  background-image: url('tlo.jpg');
+  background-image: url('./photos/tlo.jpg');
   background-size: cover;
   margin:0;
   padding:0;
@@ -27,6 +27,30 @@ body{
   padding: 20vh 0 0 0;
   font-size: 2vw;
 }
+.technologies{
+  width:55vw;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top:10vh;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height:70vh;
+}
+img{
+  width:14vw;
+  height:14vw;
+}
+img:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+h3{
+  width:100%;
+  text-align:center;
+  margin: 2vh 0 0 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
