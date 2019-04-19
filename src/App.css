@@ -6,7 +6,7 @@ body{
   color:white;
 }
 .container{
-  background-color: rgba(31, 31, 31, 0.5);
+  background-color: rgba(31, 31, 31, 0.7);
   width:100vw;
   min-height:100vh;
 }
@@ -37,25 +37,65 @@ body{
   flex-wrap: wrap;
   min-height:70vh;
 }
-img{
+.techanme img{
   width:14vw;
   height:14vw;
+  animation: rotate 5s infinite linear;
 }
-img:hover{
-  transform: scale(1.1);
-  transition: transform 0.5s;
-}
-h3{
+.techname h3{
   width:100%;
   text-align:center;
   margin: 2vh 0 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects{
+  display:flex;
+  justify-content: space-between;
+  width:96vw;
+  flex-wrap:wrap;
+  margin: 5vh auto 0 auto;
+  /* background-color:red; */
+}
+.project{
+  display:flex;
+  width:48vw;
+  margin-bottom:6vh;
+}
+.prphoto{
+  position:relative;
+}
+.prphoto:hover .link{
+  display:flex;
+}
+.prphoto img{
+  width:32vw;
+  height:16vw;
+}
+.prdesc{
+  width:15vw;
+  margin-left:1vw;
+}
+.prdesc h2{
+  margin:0;
+}
+.link{
+  /* display:flex; */
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color:black;
+  width:100%;
+  display:none;
+}
+.link div{
+  width:50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  100%{
+    transform: rotateY(360deg);
   }
 }
