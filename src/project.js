@@ -5,15 +5,16 @@ class Project extends Component{
         return(
             <div className="project">
                 <div className="prphoto">
-                    <img src={this.props.photo} />
+                    <img src={this.props.photo} alt="project"/>
                     <div className="link">
-                        <div>{this.props.github}</div>
-                        <div>{this.props.link}</div>
+                        <a href={this.props.link} target="_blank"><div> Zobacz na stronie:  <i class="fas fa-globe"></i></div></a>
+                        <a href={this.props.github} target="_blank"><div>Zobacz na github: <i class="fab fa-github"></i></div></a>
                     </div>
                 </div>
                 <div className="prdesc">
                     <h2>{this.props.name}</h2>
                     <h4>{this.props.description}</h4>
+                    <h4><i class="fas fa-tools"></i> {this.props.tech}</h4>
                 </div>
             </div>
         );

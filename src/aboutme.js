@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 import Menu from './menu'
+import {WOW} from 'wowjs';
 
 class Aboutme extends Component{
+    componentDidMount(){
+        new WOW().init();
+    }
+
     render(){
         return(
             <div>
                 <Menu handleClick={this.props.handleClick}/>
                 <div className="aboutme">
-                    <h1>Cześć, nazywam się Bartosz Pązik</h1>
-                    <div className="description">
-                        Studiuję we wrocłaawiu na ue. Szukam pracy/stażu jako front end.
-                        Programuje od kilku miesiecy
+                    <h1 className="wow fadeInDown" data-wow-duration="1.5s">Cześć, nazywam się Bartosz Pązik.</h1>
+                    <div class=" wow fadeInUp description"data-wow-duration="1.5s">
+                        Mieszkam we Wrocławiu, gdzie studiuję Informatykę w biznesie na Uniwersytecie Ekonomicznym. Tworzenie stron i aplikacji
+                        internetowych to moja pasja. Obecnie poszukuję pierwszego stażu/pracy na stanowisku Junior Front-End Developer.
                     </div>
                 </div>
             </div>

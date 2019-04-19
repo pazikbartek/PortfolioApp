@@ -11,31 +11,35 @@ class Projects extends Component{
         projects: [
             {
                 name: "Guess the square",
-                github: "https:/",
-                link: "https:/",
-                description: "great project",
-                photo: gst
+                github: "https://github.com/pazikbartek/GuessTheSquare",
+                link: "https://pazikbartek.github.io/GuessTheSquare/",
+                description: "Gra polega na odgadnięciu wszystkich par w ograniczonej liczbie prób.",
+                photo: gst,
+                tech: "HTML, CSS, JavaScript."
             },
             {
                 name: "Find & Eat",
-                github: "https:/",
-                link: "https:/",
-                description: "great project",
-                photo: fande
+                github: "https://github.com/pazikbartek/Find-and-Eat",
+                link: "https://pazikbartek.github.io/Find-and-Eat/",
+                description: "Aplikacja, która pozwala wyszukać restaurację po nazwie miasta. Dodatkowo umożliwia sortowanie po opinii lub cenie. Dane pobierane są z zewnętrznego API.",
+                photo: fande,
+                tech: "HTML, CSS, JavaScript, Webpack."
             },
             {
                 name: "ToDo App",
-                github: "https:/",
-                link: "https:/",
-                description: "great project",
-                photo: todo
+                github: "https://github.com/pazikbartek/ToDoApp",
+                link: "https://pazikbartek.github.io/ToDoApp/",
+                description: "Aplikacja, która umożliwia dodawanie zadań z podziałem na kategorie. Zadania można usuwać lub zaznaczać jako zakończone. Wszystkie dane zapisywane są w localStorage.",
+                photo: todo,
+                tech: "HTML, CSS, React."
             },
             {
                 name: "Wypożyczalnia samochodów",
-                github: "https:/",
-                link: "https:/",
-                description: "great project",
-                photo: rentcar
+                github: "https://github.com/pazikbartek/SportCarRent",
+                link: "https://pazikbartek.github.io/SportCarRent/",
+                description: "Przykładowa strona internetowa wypożyczalni samochodów sportowych.",
+                photo: rentcar,
+                tech: "HTML, CSS, JavaScript, Webpack."
             }
         ]
     }
@@ -53,6 +57,7 @@ class Projects extends Component{
                             link={project.link}
                             description={project.description}
                             photo={project.photo}
+                            tech={project.tech}
                         />)
                         
                     })}

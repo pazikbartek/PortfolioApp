@@ -6,37 +6,42 @@ import js from './photos/js.png'
 import webpack from './photos/webpack.png';
 import react from './photos/react.png';
 import git from './photos/git.png';
+import {WOW} from 'wowjs';
 
 
 class Skills extends Component{
+    componentDidMount(){
+        new WOW().init();
+    }
     render(){
+
         return(
             <div>
                 <Menu handleClick={this.props.handleClick}/>
                 <div className="technologies">
                     <div className="techname">
-                        <h3>HTML</h3>
-                        <img src={html} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s">HTML</h3>
+                        <img src={html} className=""alt="HTML"/>
                     </div>
                     <div className="techname">
-                        <h3>CSS</h3>
-                        <img src={css} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s" >CSS</h3>
+                        <img src={css} alt="CSS" />
                     </div>
                     <div className="techname">
-                        <h3>JavaScript</h3>
-                        <img src={js} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s">JavaScript</h3>
+                        <img src={js} alt="JavaScript"/>
                     </div>
                     <div className="techname">
-                        <h3>React</h3>
-                        <img src={react} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s">React</h3>
+                        <img src={react} alt="React" />
                     </div>
                     <div className="techname">
-                        <h3>GIT</h3>
-                        <img src={git} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s" >GIT</h3>
+                        <img src={git} alt="GIT"/>
                     </div>
                     <div className="techname">
-                        <h3>Webpack</h3>
-                        <img src={webpack} />
+                        <h3 className="wow zoomIn" data-wow-duration="1.2s">Webpack</h3>
+                        <img src={webpack} alt="Webpack"/>
                     </div>
                 
                 </div>
