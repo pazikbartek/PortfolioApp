@@ -32,7 +32,7 @@ body{
 }
 .aboutme h1{
   font-size:3.3vw;
-  border-bottom: 0.1vw solid rgb(204, 204, 204);
+  border-bottom: 0.01vw solid rgb(204, 204, 204);
   padding-bottom:5vh;
 }
 .description{
