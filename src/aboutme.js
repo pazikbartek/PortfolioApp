@@ -13,7 +13,7 @@ class Aboutme extends Component{
                 <Menu handleClick={this.props.handleClick}/>
                 <div className="aboutme">
                     <h1 className="wow fadeInDown" data-wow-duration="1.5s">Cześć, nazywam się Bartosz Pązik.</h1>
-                    <div class=" wow fadeInUp description"data-wow-duration="1.5s">
+                    <div className=" wow fadeInUp description"data-wow-duration="1.5s">
                         Mieszkam we Wrocławiu, gdzie studiuję Informatykę w biznesie na Uniwersytecie Ekonomicznym. Tworzenie stron i aplikacji
                         internetowych to moja pasja. Obecnie poszukuję pierwszego stażu/pracy na stanowisku Junior Front-End Developer.
                     </div>

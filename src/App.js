@@ -14,7 +14,6 @@ class App extends Component {
   }
 
   handleChangeView = (e) => {
-    console.log(e.target.id)
     this.setState({
       currentView: e.target.id,
     })

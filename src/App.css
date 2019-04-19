@@ -185,3 +185,190 @@ a .fas.fa-globe{
     opacity:1;
   }
 }
+
+@media screen and (max-width:800px){
+  .menu{
+    min-height:10vh;
+    font-size: 2.8vw;
+  }
+  .aboutme h1{
+    font-size:4vw;
+  }
+  .description{
+    font-size: 2.4vw;
+  }
+  .technologies{
+    width:65vw;
+  }
+  .techname img{
+    width:17vw;
+    height:17vw;
+  }
+  .techname h3{
+    font-size: 2.3vw;
+  }
+  .projects{
+    width:90vw;
+  }
+  .project{
+    width:90vw;
+  }
+  .prphoto img{
+    width:45vw;
+    height:23vw;
+  }
+  .prdesc{
+    width:43vw;
+    margin-left:3vw;
+  }
+  .prdesc h2{
+    font-size: 2.8vw;
+    margin-top:1vh;
+  }
+  .prdesc h4{
+    font-size: 1.7vw;
+  }
+  .prdesc h4:nth-child(3){
+    font-size: 1.9vw;
+    margin-top:3vh;
+  }
+  .fas.fa-tools{
+    font-size:2.1vw;
+  }
+  .link a{
+    font-size:1.8vw;
+  }
+  .data{
+    width:85vw;
+    font-size: 2.7vw;
+  }
+  .smedia{
+    width:30vw;
+    font-size: 9.5vw;
+  }
+
+}
+
+@media screen and (max-width:600px){
+  .menu{
+    font-size: 3.3vw;
+    margin: 0 25vw 0 1vw;
+  }
+  .aboutme h1{
+    font-size:4.4vw;
+  }
+  .description{
+    font-size: 2.9vw;
+  }
+  .technologies{
+    width:75vw;
+  }
+  .techname img{
+    width:20vw;
+    height:20vw;
+  }
+  .techname h3{
+    font-size: 2.7vw;
+  }
+  .projects{
+    width:95vw;
+  }
+  .project{
+    width:95vw;
+  }
+  .prphoto img{
+    width:45vw;
+    height:27vw;
+  }
+  .prdesc{
+    width:44vw;
+    margin-left:4vw;
+  }
+  .prdesc h2{
+    font-size: 3.2vw;
+  }
+  .prdesc h4{
+    font-size: 2vw;
+  }
+  .prdesc h4:nth-child(3){
+    font-size: 2.2vw;
+    margin-top:3vh;
+  }
+  .fas.fa-tools{
+    font-size:2.4vw;
+  }
+  .link a{
+    font-size:2vw;
+  }
+  .data{
+    width:95vw;
+    font-size: 3vw;
+  }
+  .smedia{
+    width:35vw;
+    font-size: 11.5vw;
+  }
+
+}
+
+@media screen and (max-width:450px){
+  .menu{
+    min-height:8vh;
+    font-size: 4.3vw;
+    margin: 0 3vw 0 3vw;
+  }
+  .aboutme h1{
+    font-size:5vw;
+  }
+  .description{
+    font-size: 3.5vw;
+  }
+  .technologies{
+    width:85vw;
+    min-height:60vh;
+    padding-top:15vh;
+  }
+  .techname img{
+    width:23vw;
+    height:23vw;
+  }
+  .techname h3{
+    font-size: 3.7vw;
+    margin: 0 0 1.5vh 0;
+  }
+  .prphoto img{
+    width:46vw;
+    height:27.5vw;
+  }
+  .prdesc h2{
+    font-size: 3.8vw;
+    margin-top:0;
+  }
+  .prdesc h4{
+    font-size: 2.3vw;
+  }
+  .prdesc h4:nth-child(3){
+    font-size: 2.8vw;
+    margin-top:0;
+  }
+  .fas.fa-tools{
+    font-size:3vw;
+  }
+  .link{
+    min-height:6vw;
+  }
+  .link a{
+    font-size:2.1vw;
+    min-height:6vw;
+    line-height:6vw;
+  }
+  .data{
+    width:98vw;
+    font-size: 3.1vw;
+  }
+  .smedia{
+    width:45vw;
+    font-size: 14vw;
+  }
+
+}
