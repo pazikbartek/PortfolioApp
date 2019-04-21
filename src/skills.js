@@ -7,7 +7,7 @@ import webpack from './photos/webpack.png';
 import react from './photos/react.png';
 import git from './photos/git.png';
 import {WOW} from 'wowjs';
-
+import { Preloader, Placeholder } from 'react-preloading-screen';
 
 class Skills extends Component{
     wow = new WOW(  {  live: false})
@@ -17,7 +17,7 @@ class Skills extends Component{
     render(){
 
         return(
-            <div>
+            <Preloader>
                 <Menu handleClick={this.props.handleClick}/>
                 <div className="technologies">
                     <div className="techname">
@@ -46,7 +46,10 @@ class Skills extends Component{
                     </div>
                 
                 </div>
-            </div>
+                <Placeholder>
+                    <span>Loading...</span>
+                </Placeholder>
+            </Preloader>
         )
     }
 }

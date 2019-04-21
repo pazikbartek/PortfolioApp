@@ -5,6 +5,7 @@ import gst from './photos/gts.jpg';
 import fande from './photos/fande.jpg';
 import todo from './photos/todo.jpg';
 import rentcar from './photos/rentcar.jpg';
+import { Preloader, Placeholder } from 'react-preloading-screen';
 
 class Projects extends Component{
     state = {
@@ -45,7 +46,7 @@ class Projects extends Component{
     }
     render(){
         return(
-            <div>
+            <Preloader>
                 <Menu handleClick={this.props.handleClick}/>
                 <div className="projects">
                     {this.state.projects.map((project, index) =>{
@@ -62,8 +63,11 @@ class Projects extends Component{
                         
                     })}
                 </div>
+                <Placeholder>
+                    <span>Loading...</span>
+                </Placeholder>
 
-            </div>
+            </Preloader>
         )
     }
 }
