@@ -3,8 +3,9 @@ import Menu from './menu'
 import {WOW} from 'wowjs';
 
 class Aboutme extends Component{
+    wow = new WOW(  {  live: false})
     componentDidMount(){
-        new WOW().init();
+        this.wow.init();
     }
 
     render(){

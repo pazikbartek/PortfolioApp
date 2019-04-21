@@ -10,8 +10,9 @@ import {WOW} from 'wowjs';
 
 
 class Skills extends Component{
+    wow = new WOW(  {  live: false})
     componentDidMount(){
-        new WOW().init();
+        this.wow.init();
     }
     render(){
 
