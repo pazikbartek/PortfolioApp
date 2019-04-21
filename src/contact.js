@@ -13,7 +13,7 @@ class Contact extends Component{
                 </div>
                 <div className="smedia">
                     <a href="https://github.com/pazikbartek" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
-                    <a href="https://pl.linkedin.com/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i> </a>
+                    <a href="https://www.linkedin.com/in/bartosz-p%C4%85zik-85b31a185/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i> </a>
                 </div>
             </div>
         )
