@@ -10,7 +10,7 @@ class Contact extends Component{
                 <div className="data">
                     <span><i className="fas fa-phone"></i> 795-474-575 </span>
                     <span><i className="fas fa-envelope"></i> bartosz.pazik98@gmail.com</span>
-                    <span><i className="fas fa-map-marker-alt"></i> Wrocław, Polska </span>
+                    <span><i className="fas fa-map-marker-alt"></i> Wrocław/Ośwęcim, Polska </span>
                 </div>
                 <div className="smedia">
                     <a href="https://github.com/pazikbartek" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>

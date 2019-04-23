@@ -140,7 +140,7 @@ a .fas.fa-globe{
   color:rgb(4, 216, 231);
 }
 .data{
-  width:70vw;
+  width:80vw;
   display:flex;
   justify-content: space-between;
   margin: 20vh auto 0 auto;
@@ -239,8 +239,8 @@ a .fas.fa-globe{
     font-size:1.8vw;
   }
   .data{
-    width:85vw;
-    font-size: 2.7vw;
+    width:98vw;
+    font-size: 2.6vw;
   }
   .smedia{
     width:30vw;
@@ -301,8 +301,8 @@ a .fas.fa-globe{
     font-size:2vw;
   }
   .data{
-    width:95vw;
-    font-size: 3vw;
+    width:100vw;
+    font-size: 2.8vw;
   }
   .smedia{
     width:35vw;
