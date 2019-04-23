@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/PortfolioApp/static/media/react.eed1bf89.png"
   },
   {
-    "revision": "1960b13b343bf900d62e",
-    "url": "/PortfolioApp/static/css/main.834b64b6.chunk.css"
+    "revision": "5c13216816e8487efe34",
+    "url": "/PortfolioApp/static/css/main.b04c831d.chunk.css"
   },
   {
     "revision": "1b5033fe105c05ef6ce6",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/PortfolioApp/static/media/webpack.b282a86b.png"
   },
   {
-    "revision": "1960b13b343bf900d62e",
-    "url": "/PortfolioApp/static/js/main.f722f768.chunk.js"
+    "revision": "5c13216816e8487efe34",
+    "url": "/PortfolioApp/static/js/main.0cf840db.chunk.js"
   },
   {
     "revision": "64ecdacfac2a8483e99114692dda664f",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/PortfolioApp/static/media/tlo.d82f572e.jpg"
   },
   {
-    "revision": "3c3040cca49aee9848b8d5a567b534d0",
+    "revision": "41f20690c5ea6c7d4567a83530fb8b7b",
     "url": "/PortfolioApp/index.html"
   }
 ];
